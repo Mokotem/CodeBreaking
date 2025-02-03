@@ -21,11 +21,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\python\CodeBreaking.py">
-      <Link>CodeBreaking.py</Link>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="ressources\Celeste_Font.ttf" />
     <Content Include="ressources\curseur.png" />
     <Content Include="ressources\delete.png" />
@@ -84,7 +79,6 @@
     <Content Include="ressources\sprite5\sprite7.png" />
     <Content Include="ressources\sprite5\sprite8.png" />
     <Content Include="ressources\sprite5\sprite9.png" />
-    <Content Include="ressources\zeldaPolice.otf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ressources\" />
@@ -93,6 +87,9 @@
     <Folder Include="ressources\sprite3\" />
     <Folder Include="ressources\sprite4\" />
     <Folder Include="ressources\sprite5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeBreaking.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
